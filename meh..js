@@ -31,27 +31,35 @@ var yong: {
 
 var day = 1;
 
-// Global functions
-var addhappy = function (number) {
-  happiness += number;
+// Global methods and functions
+var addHappy = function (number) {
+  this.happiness += number;
 };
 
-var addhealth = function (number) {
-  health += number;
+var addHealth = function (number) {
+  this.health += number;
 };
 
-var addknowledge = function (number) {
-  knowledge += number;
+var addKnowledge = function (number) {
+  this.knowledge += number;
+};
+
+var addMoney = function (number) {
+  this.money += number;
+};
+
+var addCareer = function (number) {
+  this.career += number;
+};
+
+var changeProfession = function (Prof) {
+  this.profession = newProf;
+};
+
+var addSobriety = function (number) {
+  this.sobriety += number;
 };
 
 var addday = function (number) {
   day += number;
-};
-
-var addmoney = function (number) {
-  money += number;
-};
-
-var addcareer = function (career) {
-  career += number;
 };
