@@ -1,4 +1,4 @@
-/* Initial variables */
+// Initial variables
 var happiness = 25; // baseline 50
 var health = 30; // baseline 50
 var knowledge = 10; // baseline 50
@@ -7,7 +7,7 @@ var money = 500;
 var career = 0; // baseline 50
 var sobriety = 100; // regens to 100, based on events or time
 
-/* Global functions */
+// Global functions
 var addhappy = function (number) {
   happiness += number;
 };
