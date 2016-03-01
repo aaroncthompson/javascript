@@ -1,11 +1,35 @@
-// Initial variables
-var happiness = 25; // baseline 50
-var health = 30; // baseline 50
-var knowledge = 10; // baseline 50
+// Initial variables */
+var jig = {
+	happiness: 25, // baseline 50
+	health: 30, // baseline 50
+	knowledge: 10, // baseline 50
+	money: 500,
+	career: 0, // baseline 50
+	profession: "unemployed"
+	sobriety: 100; // regens to 100, based on events or time
+}
+
+var bak = {
+	happiness: 50,
+	health: 50,
+	knowledge: 50,
+	money: 5000,
+	career: 50,
+	profession: "an office worker"
+	sobriety: 100
+}
+
+var yong: {
+	happiness: 40,
+	health: 30,
+	knowledge: 60,
+	money: 0,
+	career: 50,
+	profession: "a student"
+	sobriety: 100
+}
+
 var day = 1;
-var money = 500;
-var career = 0; // baseline 50
-var sobriety = 100; // regens to 100, based on events or time
 
 // Global functions
 var addhappy = function (number) {
