@@ -5,6 +5,7 @@ var knowledge = 10; // baseline 50
 var day = 1;
 var money = 500;
 var career = 0; // baseline 50
+var sobriety = 100; // regens to 100, based on events or time
 
 /* Global functions */
 var addhappy = function (number) {
