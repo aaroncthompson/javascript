@@ -36,33 +36,43 @@ var addHappy = function (number) {
   this.happiness += number;
 };
 
-jig.addHappy = addHappy
-bak.addHappy = addHappy
-yong.addHappy = addHappy
+jig.addHappy = bak.addHappy = yong.addHappy = addHappy
 
 var addHealth = function (number) {
   this.health += number;
 };
 
+jig.addHealth = bak.addHealth = yong.addHealth = addHealth
+
 var addKnowledge = function (number) {
   this.knowledge += number;
 };
+
+jig.addKnowledge = bak.addKnowledge = yong.addKnowledge = addKnowledge
 
 var addMoney = function (number) {
   this.money += number;
 };
 
+jig.addMoney = bak.addMoney = yong.addMoney = addMoney
+
 var addCareer = function (number) {
   this.career += number;
 };
+
+jig.addCareer = bak.addCareer = yong.addCareer = addCareer
 
 var changeProfession = function (Prof) {
   this.profession = newProf;
 };
 
+jig.changeProfession = bak.changeProfession = yong.changeProfession = changeProfession
+
 var addSobriety = function (number) {
   this.sobriety += number;
 };
+
+jig.addSobriety = bak.addSobriety = yong.addSobriety = addSobriety
 
 var addday = function (number) {
   day += number;
