@@ -36,6 +36,10 @@ var addHappy = function (number) {
   this.happiness += number;
 };
 
+jig.addHappy = addHappy
+bak.addHappy = addHappy
+yong.addHappy = addHappy
+
 var addHealth = function (number) {
   this.health += number;
 };
