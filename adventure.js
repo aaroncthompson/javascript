@@ -5,7 +5,7 @@ function player(name, prof) {
   this.level = xp / 60;
   this.xp = 0;
   this.addxp = function(amount) {
-    xp += amount;
+    this.xp += amount;
   }
 }
 
@@ -14,7 +14,7 @@ function ally(name, level, prof, species) {
   this.level = level + xp/60;
   this.xp = 0;
   this.addxp = function(amount) {
-    xp += amount;
+    this.xp += amount;
   }
   this.prof = prof;
   this.species = species;
