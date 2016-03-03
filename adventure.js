@@ -35,7 +35,7 @@ function item(type, rarity) {
   this.rarity = rarity;
 }
 
-funciton terrain(pass, color) {
+function terrain(pass, color) {
   this.pass = pass;
   this.color = color;
 }
