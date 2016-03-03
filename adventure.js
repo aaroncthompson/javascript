@@ -1,7 +1,23 @@
-function player(name, class) {
+function player(name, prof) {
   this.name = name;
-  this.class = class;
+  this.prof = prof;
   this.species = "human";
+  this.level = xp / 60;
+  this.xp = 0;
+  this.addxp = function(amount) {
+    xp += amount;
+  }
+}
+
+function ally(name, level, prof, species) {
+  this.name = name;
+  this.level = level + xp/60;
+  this.xp = 0;
+  this.addxp = function(amount) {
+    xp += amount;
+  }
+  this.prof = prof;
+  this.species = species;
 }
 
 function npc(name, species) {
